@@ -2,7 +2,7 @@
 % Please edit documentation in R/biocReverseDependencies.R
 \name{getRevDeps}
 \alias{getRevDeps}
-\title{Title}
+\title{Retrieve reverse dependencies of a bioconductor package}
 \usage{
 getRevDeps(pkg)
 }
@@ -13,7 +13,7 @@ getRevDeps(pkg)
 The total number of reverse dependencies
 }
 \description{
-Title
+Retrieve reverse dependencies of a bioconductor package
 }
 \examples{
 getRevDeps("S4Vectors")

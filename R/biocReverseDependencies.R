@@ -1,5 +1,5 @@
 
-#' Title
+#' Retrieve reverse dependencies of a bioconductor package
 #'
 #' @param pkg The name of the bioconductor package
 #'
@@ -10,6 +10,7 @@
 #'
 #' @examples
 #' getRevDeps("S4Vectors")
+#' 
 getRevDeps <- function(pkg) {
   
   
